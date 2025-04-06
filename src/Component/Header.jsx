@@ -41,12 +41,9 @@ const Header = () => {
                             Rooms
                         </a>
                         <div className="dropdown-menu" aria-labelledby="dropdown04">
-                            <a className="dropdown-item" href="rooms.html">
-                            Room Videos
-                            </a>
-                            <a className="dropdown-item" href="rooms.html">
+                            <Link className="dropdown-item" to="/presidential_room">
                             Presidential Room
-                            </a>
+                            </Link>
                             <a className="dropdown-item" href="rooms.html">
                             Luxury Room
                             </a>

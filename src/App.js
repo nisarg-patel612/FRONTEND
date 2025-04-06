@@ -5,6 +5,9 @@ import Blog from "./Pages/Blog.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Book_Now from "./Pages/Book_Now.jsx";
+import Presidential_Rooms from "./Pages/Presidential_Rooms.jsx";
+import Luxury_Rooms from "./Pages/Luxury_Rooms.jsx";
+import Deluxe_Rooms from "./Pages/Deluxe_Rooms.jsx";
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/book-now" element={<Book_Now />} />
+        <Route path="/presidential_room" element={<Presidential_Rooms />} />
+        <Route path="/luxury_room" element={<Luxury_Rooms />} />
+        <Route path="/Deluxe_Room" element={<Deluxe_Rooms />} />
       </Routes>
     </Router>
   );
