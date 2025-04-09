@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -16,9 +17,9 @@ const Home = () => {
                         <h1>Welcome To Our Luxury Rooms</h1>
                         <p>Discover our world's Luxury Room For VIP.</p>
                         <p>
-                        <a href="booknow.html" className="btn btn-primary">
+                        <Link to='/book-now' className="btn btn-primary">
                             Book Now
-                        </a>
+                        </Link>
                         </p>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ const Home = () => {
                         <div className="heading-wrap text-center element-animate">
                             <h4 className="sub-heading">Stay with our luxury rooms</h4>
                             <h2 className="heading">Stay and Enjoy</h2>
-                            <p className="mb-5">
+                            <p className="mb-5 Para">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
                                 illo similique natus, a recusandae? Dolorum, unde a quibusdam est?
                                 Corporis deleniti obcaecati quibusdam inventore fuga eveniet! Qui
@@ -188,7 +189,7 @@ const Home = () => {
                     <h3 className="mb-3">
                         <a href="#">New Rooms</a>
                     </h3>
-                    <p className="mb-4">
+                    <p className="mb-4 Para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                         deserunt illo quis similique dolore voluptatem culpa voluptas
                         rerum, dolor totam.
@@ -216,7 +217,7 @@ const Home = () => {
                     <h3 className="mb-3">
                         <a href="#">New Staff Added</a>
                     </h3>
-                    <p className="mb-4">
+                    <p className="mb-4 Para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                         deserunt illo quis similique dolore voluptatem culpa voluptas
                         rerum, dolor totam.
@@ -244,7 +245,7 @@ const Home = () => {
                     <h3 className="mb-3">
                         <a href="#">Big Rooms for All</a>
                     </h3>
-                    <p className="mb-4">
+                    <p className="mb-4 Para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                         deserunt illo quis similique dolore voluptatem culpa voluptas
                         rerum, dolor totam.

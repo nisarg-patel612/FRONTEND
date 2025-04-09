@@ -1503,10 +1503,6 @@ textarea.form-control {
   font-size: 14px;
 }
 
-.element-animate {
-  /* visibility: hidden; */
-  /* animation-name: fadeInUp; */
-}
 
 #loader {
   position: fixed;
@@ -1614,4 +1610,196 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+
+/* About css */
+img.img-md-fluid {
+  width: 115%;
+}
+
+.Para {
+  width: 100%; 
+  max-width: 600px; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  text-align: justify; 
+  line-height: 1.6; 
+}
+
+
+/* Presidential Rooms CSS */
+
+.presi-room{
+  margin-top: 5%;
+}
+
+.presidential-experience {
+  text-align: center;
+  background-color: #f6f4ef;
+  padding: 40px;
+  font-family: inherit;
+  background-color: #f5f3f0;
+  font-weight: 500;
+}
+
+.presidential-experience h2 {
+  font-size: 24px;
+  color: #8b9b99; /* Soft muted blue-green */
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.presidential-experience p {
+  font-size: 16px;
+  color: #333;
+  /* max-width: 800px; */
+  margin: 10px auto; 
+  line-height: 1.6;
+}
+
+/* sdsdsdsd */
+a#main_room-chambre-classique {
+  font-family: normal;
+  font-size: 2em;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+  letter-spacing: 2px;
+  line-height: initial;
+  font-weight: 500;
+  color: #94b0ae;
+}
+
+.item-content {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  padding: 2em 2em 2em 5em;
+}
+
+.credit-rooms p {
+  text-align: justify;
+  color: #beb18b;
+  font-size: small;
+  text-transform: lowercase;
+  font-weight: 100;
+}
+
+ul.hapi-service_cardlist {
+  list-style-type: none;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.9em;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #333333;
+  margin-left: 2%;
+}
+
+
+li.hapi-service_card {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.9em;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #333333;
+}
+
+.presi-img-1 img{
+  width: 80%;
+}
+
+.item-wrapper.d-flex {
+  gap: 24%;
+  width: 100%;
+}
+
+/* Latest CSS for Presidential Room-1 */
+.presidentail-room-1 {
+  display: flex;
+  justify-content: center;  /* Center the content horizontally */
+  align-items: center;      /* Align content vertically */
+  position: relative;
+  max-width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px 0; /* Add padding to center the content better */
+}
+
+.item-wrapper {
+  position: relative;
+  width: 80%; /* Reduce width to make image smaller */
+  max-width: 900px; /* Limit max width for proper layout */
+}
+
+.item-img {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center image */
+  align-items: center;
+  position: relative;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 750px; /* Adjust max width for smaller image */
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.img-presi-1 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Room-Detials CSS */
+.room-details {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 55%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.room-details h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.room-details p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.room-features {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.room-features span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.room-features span img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
