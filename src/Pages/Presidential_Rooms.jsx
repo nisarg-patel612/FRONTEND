@@ -119,7 +119,7 @@ const Presidential_Rooms = () => {
                 <div className="row_version_list_1">
                     <div className='pinned-image rounded_container pinned-image--medium'>
                         <div className="pinned-image_container" style={{translate : "none", scale: "none", transform: "scale(1.05,1.05)", width:"93%"}}>
-                            <img src="/images/Presi-img-1.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
+                            <img src="/images/About_Img_1.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
                         </div>
                     </div>
                     <div className="row justify-content-start">
@@ -193,7 +193,7 @@ const Presidential_Rooms = () => {
                 <div className="row_version_list_1">
                     <div className='pinned-image rounded_container pinned-image--medium'>
                         <div className="pinned-image_container" style={{translate : "none", scale: "none", transform: "scale(1.05,1.05)", width:"93%"}}>
-                            <img src="/images/Presi-img-2.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
+                            <img src="/images/About_Img-2.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
                         </div>
                     </div>
                     <div className="row justify-content-start">
@@ -267,7 +267,7 @@ const Presidential_Rooms = () => {
                 <div className="row_version_list_1">
                     <div className='pinned-image rounded_container pinned-image--medium'>
                         <div className="pinned-image_container" style={{translate : "none", scale: "none", transform: "scale(1.05,1.05)", width:"93%"}}>
-                            <img src="/images/Presi-img-1.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
+                            <img src="/images/About_Img_3.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
                         </div>
                     </div>
                     <div className="row justify-content-start">
@@ -341,7 +341,7 @@ const Presidential_Rooms = () => {
                 <div className="row_version_list_1">
                     <div className='pinned-image rounded_container pinned-image--medium'>
                         <div className="pinned-image_container" style={{translate : "none", scale: "none", transform: "scale(1.05,1.05)", width:"93%"}}>
-                            <img src="/images/Presi-img-1.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
+                            <img src="/images/About_Img_4.jpg" alt="Presidnetial_Image_1" className='presidential-rm'/>
                         </div>
                     </div>
                     <div className="row justify-content-start">
