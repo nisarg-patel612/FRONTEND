@@ -8,12 +8,17 @@ import Book_Now from "./Pages/Book_Now.jsx";
 import Presidential_Rooms from "./Pages/Presidential_Rooms.jsx";
 import Luxury_Rooms from "./Pages/Luxury_Rooms.jsx";
 import Deluxe_Rooms from "./Pages/Deluxe_Rooms.jsx";
+import Header from "./Component/Header.jsx";
+import Footer from "./Component/Footer.jsx";
 
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/header" element={<Header />} />
+        <Route path="/footer" element={<Footer />} />
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
